@@ -115,6 +115,13 @@ app.get('/bitmojisticker',
     res.render('bitmojisticker', { user: req.user });
   });
 
+  // Sticker share page 
+app.get('/stickershare',
+function(req, res){
+  res.render('stickershare');
+});
+
+
 app.listen(3000, () => {
   console.log('App listening on port 3000...');
 });

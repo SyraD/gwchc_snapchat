@@ -25,7 +25,7 @@ To install this example on your computer, clone the repository and install
 dependencies.
 
 ```bash
-$ git clone https://github.com/SyraD/express-4.x-passport-snapchat-example.git
+$ git clone <this repo>
 $ cd express-4.x-passport-snapchat-example
 $ npm install
 $ npm install express --save
@@ -35,11 +35,11 @@ The example uses environment variables to configure the consumer key and
 consumer secret needed to access snapchat's API.  Start the server with those
 variables set to the appropriate credentials.
 
-```bash
 Edit the line below (easiest not on the command line, copy and paste when done)
 * __snapchat_CLIENT_ID__ = your client ID (in the saved file)
 * __snapchat_CLIENT_SECRET__ = your client secret (in saved file)
-$ CLIENT_ID=__snapchat_CLIENT_ID__ CLIENT_SECRET=__snapchat_CLIENT_SECRET__ SESSION_SECRET=whatever node server.js
+```bash
+$ CLIENT_ID=snapchatCLIENTID CLIENT_SECRET=snapchatCLIENTSECRET SESSION_SECRET=whatever node server.js
 ```
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
